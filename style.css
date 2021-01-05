@@ -4,6 +4,13 @@
   color: rgba(0,0,0,0.87);
 }
 
+body {
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* Top nav bar */
 
 .nav {
@@ -88,4 +95,35 @@
 
 #info-box:visited {
   color: purple;
+}
+
+/* Footer */
+
+.footer-div {
+  background-color: rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(0,0,0,0.2);
+  padding: 10px;
+  font-size: 15px;
+  color: 
+}
+
+#footer-top {
+  margin-left: 10px;
+}
+
+#footer-div-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-block {
+  display: flex;
+}
+
+.footer-block div {
+  margin: 0 10px;
+}
+
+i {
+  color: green;
 }
