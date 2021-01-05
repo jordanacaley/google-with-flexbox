@@ -58,6 +58,10 @@ a:hover {
   align-items: center;
 }
 
+.search-container {
+  position: relative;
+}
+
 #search-form {
   width: 550px;
   height: 45px;
@@ -73,8 +77,9 @@ a:hover {
 }
 
 #search-icon {
-  position: relative;
-  left: 50px;
+  position: absolute;
+  top: 29px;
+  left: 25px;
   color: rgba(0,0,0,0.2);
 }
 
