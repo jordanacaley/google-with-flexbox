@@ -85,7 +85,7 @@ a:hover {
 }
 
 #search-form:focus {
-  border: none;
+  outline: none;
 }
 
 #search-icon {
